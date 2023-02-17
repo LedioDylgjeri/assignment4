@@ -135,3 +135,13 @@ h2 {
 .pz-modal-info {
   background-color: rgb(122, 203, 235);
 }
+
+.bugs-bunny {
+  width: 80%;
+  height: 60vh;
+}
+
+.ct-img {
+  height: 100%;
+  width: 100%;
+}
