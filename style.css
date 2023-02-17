@@ -1,6 +1,15 @@
 body {
   background-color: rgba(128, 128, 128, 0.879);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgba(9, 116, 173, 0.69);
+  padding: 2rem 0;
+  margin-top: 0;
+  width: 100%;
 }
 
 .img-container {
@@ -117,4 +126,12 @@ h2 {
   width: 78%;
   margin: 2rem auto;
   padding: 1rem;
+}
+
+.pz-modal {
+  background-color: rgba(0, 128, 0, 0.658);
+}
+
+.pz-modal-info {
+  background-color: rgb(122, 203, 235);
 }
