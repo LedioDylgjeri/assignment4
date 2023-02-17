@@ -141,7 +141,13 @@ h2 {
   height: 90vh;
 }
 
+.container-fluid > div > div p {
+  background-color: rgba(155, 150, 150, 0.23);
+  margin-top: 2rem;
+}
+
 .ct-img {
   height: 80%;
   width: 80%;
 }
+
