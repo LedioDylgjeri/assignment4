@@ -52,8 +52,7 @@ body {
 }
 
 .image > a:hover {
-  padding: .5rem;
-  box-shadow: 5px 5px 5px 5px rgb(227, 13, 13);
+  box-shadow: 0 0 5px 5px rgba(246, 243, 243, 0.64);
 }
 
 .image > p {
