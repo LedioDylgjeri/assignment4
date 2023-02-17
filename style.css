@@ -1,10 +1,9 @@
 body {
-  background-color: gray;
+  background-color: rgba(128, 128, 128, 0.879);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .img-container {
-  height: 80vh;
   width: 80%;
   margin: 2rem auto;
   display: grid;
@@ -13,15 +12,110 @@ body {
 }
 
 .img-container > .image {
-  height: 100%;
   width: 100%;
-  border: 2px solid rgb(207, 20, 20);
+  border: 5px solid rgba(185, 55, 241, 0.503);
+  text-align: center;
   display: grid;
   justify-content: center;
   align-items: center;
+  padding: 2rem 0;
+}
+
+.img-container > div > img {
+  height: 15rem;
+  width: 13rem;
+  margin: 1rem auto;
+  border-radius: 1rem;
+}
+
+.image > h3 {
+  border-bottom: 2px solid rgba(87, 244, 220, 0.734);
+  width: 53%;
+  margin: 0 auto;
+}
+
+.image > p {
+  background-color: rgba(101, 98, 98, 0.359);
+  color: rgba(255, 255, 255, 0.822);
 }
 
 .image > a {
   display: block;
-  text-align: center;
+  text-decoration: none;
+  background-color: rgb(237, 128, 55);
+  width: 13rem;
+  margin: 0 auto;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.image > a:hover {
+  padding: .5rem;
+  box-shadow: 5px 5px 5px 5px rgb(227, 13, 13);
+}
+
+.image > p {
+  padding: 0 15px;
+}
+
+.ic-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(11, 100, 234, 0.763);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ic-modal:target {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-info {
+  background: rgb(244, 124, 43);
+  margin: 10rem auto;
+  border: 2px solid white;
+  width: 80%;
+  padding: .5rem .5rem 2rem .5rem;
+}
+
+h2 {
+  display: inline;
+  color: rgba(255, 255, 255, 0.794);
+  border-bottom: 5px solid rgb(152, 37, 9);
+}
+
+.modal-info > a {
+  float: right;
+  text-decoration: none;
+  background-color: white;
+  color: red;
+  font-weight: bold;
+  border-radius: 30%;
+  font-size: 20px;
+  padding: 2px;
+}
+
+.modal-info > a:hover {
+  transform: rotate(360deg);
+  transition: ease-in-out .5s;
+  background-color: red;
+  color: white;
+}
+
+.modal-info > img  {
+  height: 50%;
+  width: 80%;
+}
+
+.modal-info > p {
+  background-color: pink;
+  width: 78%;
+  margin: 2rem auto;
+  padding: 1rem;
 }
