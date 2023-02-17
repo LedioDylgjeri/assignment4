@@ -1,5 +1,4 @@
 body {
-  background-color: rgba(128, 128, 128, 0.879);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
 }
@@ -21,6 +20,7 @@ h1 {
 }
 
 .img-container > .image {
+  background-color: rgba(162, 81, 196, 0.393);
   width: 100%;
   border: 5px solid rgba(185, 55, 241, 0.503);
   text-align: center;
@@ -44,7 +44,7 @@ h1 {
 }
 
 .image > p {
-  background-color: rgba(101, 98, 98, 0.359);
+  background-color: rgba(101, 98, 98, 0.524);
   color: rgba(255, 255, 255, 0.822);
 }
 
@@ -61,7 +61,7 @@ h1 {
 }
 
 .image > a:hover {
-  box-shadow: 0 0 5px 5px rgba(246, 243, 243, 0.64);
+  box-shadow: 0 0 5px 5px rgba(238, 53, 6, 0.64);
 }
 
 .image > p {
